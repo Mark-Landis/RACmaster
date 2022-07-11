@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RACmaster</Text>
+    <Description>Some description for RACmaster</Description>
+    <Assembly>RACmaster.dll</Assembly>
+    <FullClassName>RACmaster.Command</FullClassName>
+    <ClientId>0fc4e8de-0728-4b1b-88d0-09f1ebb1d526</ClientId>
+    <VendorId>CadMasters</VendorId>
+    <VendorDescription>CadMasters - Mark Landis</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RACmaster</Name>
+    <Assembly>RACmaster.dll</Assembly>
+    <FullClassName>RACmaster.App</FullClassName>
+    <ClientId>fa6b6398-9195-4e37-ae84-5286535653fc</ClientId>
+    <VendorId>CadMasters</VendorId>
+    <VendorDescription>CadMAsters - Mark Landis</VendorDescription>
+  </AddIn>
+</RevitAddIns>
