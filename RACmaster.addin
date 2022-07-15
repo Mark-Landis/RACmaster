@@ -9,6 +9,27 @@
     <VendorId>CadMasters</VendorId>
     <VendorDescription>CadMasters - Mark Landis</VendorDescription>
   </AddIn>
+	
+  <AddIn Type="Command">
+	<Text>FizzBuzz</Text>
+	<Description>FizzBuzz Challenge</Description>
+	<Assembly>RACmaster.dll</Assembly>
+	<FullClassName>RACmaster.CmdFizzBuzz</FullClassName>
+	<ClientId>DAFD94EC-1FB6-4635-9D68-A0CD1EC10A86</ClientId>
+	<VendorId>CadMasters</VendorId>
+	<VendorDescription>CadMasters - Mark Landis</VendorDescription>
+  </AddIn>
+
+	<AddIn Type="Command">
+		<Text>Project Setup</Text>
+		<Description>Project Setup Challenge</Description>
+		<Assembly>RACmaster.dll</Assembly>
+		<FullClassName>RACmaster.CmdProjectSetup</FullClassName>
+		<ClientId>E37E5A34-6C20-48FD-9731-FC1E40CD21DD</ClientId>
+		<VendorId>CadMasters</VendorId>
+		<VendorDescription>CadMasters - Mark Landis</VendorDescription>
+	</AddIn>
+	
   <AddIn Type="Application">
     <Name>Application RACmaster</Name>
     <Assembly>RACmaster.dll</Assembly>
